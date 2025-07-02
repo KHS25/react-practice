@@ -8,19 +8,16 @@ import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
-import Counter from './chapter_07/Counter';
-import TextInputWithFocusButton from './chapter_07/TextInputWithFocusButton';
-import MeasureExample from './chapter_07/MeasureExample';
-import Calculator from './chapter_07/Calculator';
-import ProfileCard from './chapter_13/ProfileCard';
+import Accommodata from './chapter_07/Accommodata'
+import ConfirmButton from './chapter_08/ConfirmButton';
+import ProfileCard from '../chapter_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 root.render(
-  <React.StrictMode>
-    <ProfileCard />
-  </React.StrictMode>
-)
+    <React.StrictMode>
+        <ProfileCard />
+    </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
